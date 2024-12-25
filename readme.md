@@ -32,7 +32,7 @@ Feel free to modify the files to fit your own projects or experiment with differ
   [Introduction to Programming in OpenFOAM 12 – YouTube Playlist (in Persian)](https://www.youtube.com/watch?v=eJpoGQs4S7w&list=PLlKinvYqUOs0OSS52pg-zGkGWe9E3WacH)
 
 - **Blog Post**  
-  [Introduction to Programming in OpenFOAM 12 – Blog Post][https://blog.sam-mousavi.com](https://blog.sam-mousavi.com/2024/12/introduction-to-programming-in-openfoam-12/)
+  [Introduction to Programming in OpenFOAM 12 – Blog Post](https://blog.sam-mousavi.com/2024/12/introduction-to-programming-in-openfoam-12/)
 
 These resources provide step-by-step explanations, video demonstrations, and additional insights into how to make the most of your custom developments in OpenFOAM.
 
