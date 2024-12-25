@@ -1,0 +1,4 @@
+SOURCE += setDeltaT.C
+SOURCE += scalarTransportEq.C
+
+EXE = $(FOAM_USER_APPBIN)/scalarTransportEq

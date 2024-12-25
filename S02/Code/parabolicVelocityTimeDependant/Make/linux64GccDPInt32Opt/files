@@ -1,0 +1,3 @@
+SOURCE += parabolicVelocityTimeDependantFvPatchVectorField.C
+
+LIB = $(FOAM_USER_LIBBIN)/parabolicVelocityTimeDependant

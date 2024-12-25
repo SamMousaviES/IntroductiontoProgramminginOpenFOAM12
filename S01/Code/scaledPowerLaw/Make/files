@@ -1,0 +1,3 @@
+scaledPowerLaw.C
+
+LIB = $(FOAM_USER_LIBBIN)/libscaledPowerLaw

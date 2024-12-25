@@ -1,0 +1,44 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      momentumTransport;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+simulationType laminar;
+
+
+laminar
+{
+    model        generalisedNewtonian;
+
+    viscosityModel scaledPowerLaw;
+
+    nuMin           0.0000001;
+    nuMax           0.001;
+    k               0.001;
+    n               0.8;
+    S               0.2;
+}
+
+
+/*RAS
+{
+    model           kEpsilon;
+
+    turbulence      on;
+
+    printCoeffs     on;
+}*/
+
+
+// ************************************************************************* //
